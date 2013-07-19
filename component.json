@@ -1,0 +1,17 @@
+{
+  "name": "konami-code",
+  "repo": "stephenmathieson/konami-code",
+  "description": "Execute a callback when the Konami Code is entered",
+  "version": "0.0.1",
+  "keywords": [ "keyboard", "konami" ],
+  "dependencies": {
+    "component/event": "*",
+    "component/keyname": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}

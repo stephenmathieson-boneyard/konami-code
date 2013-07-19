@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Konami Code</title>
+    <style>
+      .container {
+        margin: 100px auto;
+        text-align: center;
+      }
+      .key {
+        border: 1px solid #aaa;
+        border-radius: 2px;
+        box-shadow: 1px 2px 2px #ddd;
+        background-color: #f9f9f9;
+        padding: 1px 3px;
+        font-size: 0.85em
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <kbd class="key">↑</kbd>
+      <kbd class="key">↑</kbd>
+      <kbd class="key">↓</kbd>
+      <kbd class="key">↓</kbd>
+      <kbd class="key">←</kbd>
+      <kbd class="key">→</kbd>
+      <kbd class="key">←</kbd>
+      <kbd class="key">→</kbd>
+      <kbd class="key">B</kbd>
+      <kbd class="key">A</kbd>
+    </div>
+    <script src="/build/build.js"></script>
+    <script>
+      !function () {
+        var konami = require('konami-code');
+
+        konami(function () {
+          alert('up up down down left right left right b a')
+        })
+      }()
+    </script>
+  </body>
+</html>

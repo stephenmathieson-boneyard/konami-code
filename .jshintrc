@@ -1,0 +1,11 @@
+{
+  "globals": {
+    "require": false,
+    "exports": true,
+    "module": true
+  },
+  "white": true,
+  "browser": true,
+  "indent": 2,
+  "globalstrict": true
+}
